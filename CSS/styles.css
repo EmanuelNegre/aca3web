@@ -1,0 +1,129 @@
+/* Resetear márgenes y rellenos en todos los elementos */
+body, h1, h2, p {
+    
+    height: 90%;
+    width: 90%;
+    margin: auto;
+    padding: 1px;
+}
+
+/* fuente de Google Fonts */
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Estilo para el encabezado */
+header {
+    background-color: #333;
+    color: white;
+    padding: 0rem;
+    display: flex;
+    align-items: center;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilo para la navegación */
+nav ul {
+    list-style: none;
+    display: flex;
+    margin-left: 100px;
+    
+  
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    transition: color 0.3s ease;
+}
+/* Estilo para el enlace de la página actual */
+nav ul li a.menu-link.active {
+    color: #f39c12; /* Cambia al color deseado */
+}
+
+nav ul li a:hover {
+    color: #f39c12;
+}
+
+/* Estilo para el logo */
+.logo {
+    margin-left: 20px;
+}
+
+.logo-img {
+    max-width: 150px;
+    height: auto;
+}
+
+/* Estilo para las secciones */
+.section {
+    padding: 5rem 0;
+    background-color: #dbe1e7;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.container {
+    height: 90%;
+    width: 90%;
+    margin: auto;
+  }
+/* Estilo para los títulos */
+h1, h2 {
+    color: #333;
+}
+
+/* Estilo para los párrafos */
+p {
+    color: #000000;
+    line-height: 1.6;
+}
+
+
+
+/* Estilo para el footer */
+.footer {
+    
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer {
+    background-color: #333;
+    color: white;
+    padding: 2.5rem 0;
+    text-align: center;
+}
+
+.footer p {
+    margin: 0;
+    font-size: 14px; 
+    line-height: 1.4; 
+}
+
+.footer a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.footer a:hover {
+    color: #f39c12;
+
+}
+
+.container_footer{
+    background-color: #ffffff;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+
+

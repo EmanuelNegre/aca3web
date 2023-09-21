@@ -1,0 +1,20 @@
+#historia {
+    background-color: #f8f9fa;
+    padding: 5rem 0;
+}
+
+#historia .container {
+    text-align: center;
+}
+
+#historia h1 {
+    color: #333;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+#historia p {
+    color: #555;
+    font-size: 1.2rem;
+    line-height: 1.6;
+}

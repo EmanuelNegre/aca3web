@@ -1,0 +1,10 @@
+/* Estilo para resaltar el enlace de la página actual en la barra de navegación */
+.menu ul li.current-page a {
+    background-color: #f39c12; /* Cambia el color de fondo a tu preferencia */
+    color: #fff; /* Cambia el color del texto a tu preferencia */
+}
+
+.menu ul li.current-page a:hover {
+    background-color: #f39c12; /* Puedes mantener el mismo color de fondo en hover o cambiarlo */
+    color: #fff; /* Puedes mantener el mismo color de texto en hover o cambiarlo */
+}

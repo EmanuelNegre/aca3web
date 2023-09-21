@@ -1,0 +1,43 @@
+/* Estilos para el slider */
+.slider {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 0rem; 
+  }
+  
+  
+  .slider-container {
+    display: flex;
+    transition: transform 0.5s ease;
+  }
+  
+ /* Estilos para las imágenes del slider */
+.slider img {
+    max-width: 90%;
+    height: auto;
+    margin: 0 auto; 
+  }
+  
+  .slider-nav {
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem; /* Margen superior de 2 rem */
+    margin-bottom: 4rem; /* Margen inferior de 2 rem */
+  
+  }
+  
+  .slider-nav button {
+    background: none;
+    border: none;
+    font-size: 40px;
+    cursor: pointer;
+    padding: 0 10px;
+    transition: color 0.3s ease;
+  }
+  
+  .slider-nav button:hover {
+    color: #f39c12;
+  }
+  
